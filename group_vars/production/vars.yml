@@ -10,7 +10,8 @@ Stack.Inputs.VpcName: Default
 Stack.Inputs.ApplicationDesiredCount: 2
 Stack.Inputs.ApplicationImageId: ami-0b170143fdcd702d0
 Stack.Inputs.ApplicationInstanceType: t2.micro
-Stack.Inputs.KeyName: docker-production-aws
+# Key pair that you need to ssh into the machines
+Stack.Inputs.KeyName: Work 
 
 # Proxy settings
 Stack.Inputs.ProxyImage: blankia/squid
